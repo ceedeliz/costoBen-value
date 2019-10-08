@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>System</title>
+	<meta name="Author" content=""/>
+
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style6.css" />
+    	<link rel="stylesheet" href="asset/style.css"/>
+
+        <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+                <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript"  src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<link href="lity/dist/lity.css" rel="stylesheet">
+<script src="lity/vendor/jquery.js"></script>
+<script src="lity/dist/lity.js"></script>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        body{
+            margin: 0 auto;
+            max-width: 1280px;
+            min-width: 860px;
+            background-color:rgb(240, 240, 240);
+                font-family: sans-serif;
+        }
+        aside{
+            float: left;
+            width: 30%;
+            margin: 10px;
+            height: 52  0px;
+            background: white;
+            padding: 10px;
+            margin-bottom: 500px;
+        }
+        aside label.css-label{
+            margin-left: 20px;
+        }
+        section{
+            background-color: white;
+            float: left;
+            width: 65%;
+            margin: 10px;
+            height: auto;
+        }
+        article{
+            float: left;
+            width: 100%;
+          padding: 20px;
+            
+        }
+        .enviar{
+            position:fixed;
+            bottom: 10%;
+            right: 2%;
+            border: none;
+            padding: 10px 5px;
+            background: #94b750;
+            color: white;
+            
+        }
+      article label{
+      FLOAT: left;
+      width: 30%;
+      margin: 5px;
+      }
+      article .texto{
+        float: left;
+        width: 100%;
+        margin: 50px 0px;
+      }
+      h2{
+       float: left;
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 2.5em;
+    color: #777777;
+      }
+        h3{
+            float: left;
+            width: 80%;
+            text-align: left;
+            font-size: 1.3em;
+            margin: 20px 0px
+        }
+      hr{
+        margin: 30px 0;
+      }
+        table{
+            width: 100%;
+        }
+        td{
+            height: 50px;
+            text-align: center;
+            background:rgb(239, 239, 239);
+                border: solid white 1px;
+           
+        
+
+        }
+        th{
+            height: 50px;
+            background: #94b750;
+                            border: solid white 1px;
+            text-align: center;
+        }
+        .columna{
+                 height: 50px;
+            background: #94b750;
+            
+            
+        }
+        td input{
+        }
+        input.labelauty + label{
+            width: 96%;
+            text-decoration: none;
+            height: 40px;
+        }
+        
+
+span {
+    border: none;
+    padding: 20px 10px;
+    color: white;
+    font-size: 2em;
+    display: inline-block;
+}
+  
+        span:hover{
+            cursor: pointer;
+        }
+        span:active{
+            background: gainsboro;
+        }
+        .contenido{
+            display: flex;
+            background: none;
+        }
+ section div{
+     margin: 0;
+        width: 100%;
+        height: auto;
+        background: white;
+        flex-direction: row;
+         padding: 10px;
+        }
+        label.css-label {
+    margin: 10px;
+    float: left;
+            font-size: 14px !important;
+            width: 100%;
+            text-align: left;
+        }
+    
+        #clase1{
+        background: #6950b7;
+
+
+            
+        }
+        #clase2{
+        background: #b75050;
+
+
+        }
+        #clase3{
+            background:#50b7a9;
+
+        }
+        .target1{
+            border-top:7px solid  #6950b7;
+            
+        }
+        .target2{
+            border-top:7px solid #b75050; 
+        }
+        .target3{
+            border-top:7px solid #50b7a9;
+        }
+        section label.css-label{
+            width: 80%;
+        }
+        .submit{
+            padding: 10px;
+            background:  #94b750;
+            border: none;
+            color: white;
+            width: 100%;
+             height: 40px;
+    float: left;
+    margin-top: 40px;
+          
+        }
+       section span{
+            background:  #94b750;
+        }   
+        fieldset {
+    float: left;
+    width: 45%;
+    border: 1px solid #dadada;
+    height: 320px;
+}
+    
+    legend {
+    text-align: center;
+    font-size: 25px;
+    padding: 5PX;
+}
+        .contenido span{
+            width: 99%;
+    padding: 10px 5px;
+    margin: 10px 0px;
+    float: left;
+        }
+  label.css-label.selector1 {
+    margin-bottom: 40px;
+
+    border-bottom: 2px solid #94b750;
+    width: 80%;
+}
+        form{
+            overflow: hidden;
+        }
+        section:nth-child(6) > div > article.physical > fieldset:nth-child(1) > label:nth-child(5){
+            margin-top: 60px;
+        }
+        .separador{
+            float: left;
+        }
+    </style>
+<script>
+
+    
+    </script>
+</head>
+<body>
+<form method="post" action="validar.php" target="_blank">
+<header>
+      
+    
+    </header>
+    <aside>
+        <h2>Ecosystem</h2>
+    
+          
+<input type="checkbox" name="selectall" id="selectall" class="css-checkbox" onclick="checkAll(this)"/>	<label for="selectall" class="css-label selector1">	Select all	</label>
+        
+<div class="separador">        
+<h3>Marine - Open ocean	</h3>
+    <input type="checkbox" name="checkboxG1_1" id="checkboxG1_1" class="css-checkbox seccion_1"/>	<label for="checkboxG1_1" class="css-label">	Marine - Open ocean	</label>
+    <input type="checkbox" name="checkboxG1_2" id="checkboxG1_2" class="css-checkbox seccion_1"/>	<label for="checkboxG1_2" class="css-label">	 Open ocean	</label>
+    <input type="checkbox" name="checkboxG1_3" id="checkboxG1_3" class="css-checkbox seccion_1"/>	<label for="checkboxG1_3" class="css-label">	Coral reefs	</label>
+</div>
+<div class="separador">        
+
+<h3>Coastal Systems </h3>        
+        <input type="checkbox" name="checkboxG2_1" id="checkboxG2_1" class="css-checkbox seccion_1"/>	<label for="checkboxG2_1" class="css-label">	Coastal Systems (Excluding Wetlands) </label>
+        <input type="checkbox" name="checkboxG2_2" id="checkboxG2_2" class="css-checkbox seccion_1"/>	<label for="checkboxG2_2" class="css-label">	Seagrass/algae beds </label>
+        <input type="checkbox" name="checkboxG2_3" id="checkboxG2_3" class="css-checkbox seccion_1"/>	<label for="checkboxG2_3" class="css-label">	Shelf sea	</label>
+        <input type="checkbox" name="checkboxG2_4" id="checkboxG2_4" class="css-checkbox seccion_1"/>	<label for="checkboxG2_4" class="css-label">	Estuaries	</label>
+        <input type="checkbox" name="checkboxG2_5" id="checkboxG2_5" class="css-checkbox seccion_1"/>	<label for="checkboxG2_5" class="css-label">	Shores (rocky and beaches)	</label>
+        </div>
+        <div class="separador">        
+
+<h3>Wetlands</h3>      
+        <input type="checkbox" name="checkboxG3_1" id="checkboxG3_1" class="css-checkbox seccion_1"/>	<label for="checkboxG3_1" class="css-label">	Wetlands - general (coastal and inland)) </label>   
+        <input type="checkbox" name="checkboxG3_2" id="checkboxG3_2" class="css-checkbox seccion_1"/>	<label for="checkboxG3_2" class="css-label">	Tidal Marsh (coastal wetlands) </label>
+        <input type="checkbox" name="checkboxG3_3" id="checkboxG3_3" class="css-checkbox seccion_1"/>	<label for="checkboxG3_3" class="css-label">	Mangroves (coastal wetlands)</label>
+        <input type="checkbox" name="checkboxG3_4" id="checkboxG3_4" class="css-checkbox seccion_1"/>	<label for="checkboxG3_4" class="css-label">	Floodplains (incl. Swamps/marsh) (inland wetlands)	</label>
+         <input type="checkbox" name="checkboxG3_5" id="checkboxG3_5" class="css-checkbox seccion_1"/>	<label for="checkboxG3_5" class="css-label">	Peat-wetlands (bogs, fens, etc.) (inland wetlands)  	</label>
+        </div>
+                <div class="separador">        
+
+<h3>Lake/Rivers</h3>      
+<input type="checkbox" name="checkboxG69_1" id="checkboxG69_1" class="css-checkbox seccion_1"/>	<label for="checkboxG69_1" class="css-label">	Lakes/Rivers</label>   
+<input type="checkbox" name="checkboxG69_2" id="checkboxG69_2" class="css-checkbox seccion_1"/>	<label for="checkboxG69_2" class="css-label">	Lakes </label>
+<input type="checkbox" name="checkboxG69_3" id="checkboxG69_3" class="css-checkbox seccion_1"/>	<label for="checkboxG69_3" class="css-label">	Rivers</label>
+
+        </div>
+        <div class="separador">        
+
+ <h3>Forests</h3>      
+        <input type="checkbox" name="checkboxG4_1" id="checkboxG4_1" class="css-checkbox seccion_1"/>	<label for="checkboxG4_1" class="css-label">	Forests-all </label>
+         <input type="checkbox" name="checkboxG4_2" id="checkboxG4_2" class="css-checkbox seccion_1"/>	<label for="checkboxG4_2" class="css-label">	Tropical forests </label>
+          <input type="checkbox" name="checkboxG4_3" id="checkboxG4_3" class="css-checkbox seccion_1"/>	<label for="checkboxG4_3" class="css-label">	Tropical rain forest </label>
+        <input type="checkbox" name="checkboxG4_4" id="checkboxG4_4" class="css-checkbox seccion_1"/>	<label for="checkboxG4_4" class="css-label">	Tropical dry forest (tropical forest)</label>
+        <input type="checkbox" name="checkboxG4_5" id="checkboxG4_5" class="css-checkbox seccion_1"/>	<label for="checkboxG4_5" class="css-label">	Temperate forests	</label>
+         <input type="checkbox" name="checkboxG4_6" id="checkboxG4_6" class="css-checkbox seccion_1"/>	<label for="checkboxG4_6" class="css-label">	Temperate rain/Evergreen (temperate forest)  	</label>     
+        <input type="checkbox" name="checkboxG4_7" id="checkboxG4_7" class="css-checkbox seccion_1"/>	<label for="checkboxG4_7" class="css-label">	Temperate deciduous forests (temperate forest) 	</label>  
+          <input type="checkbox" name="checkboxG4_8" id="checkboxG4_8" class="css-checkbox seccion_1"/>	<label for="checkboxG4_8" class="css-label">	Boreal/Coniferous forest  (temperate forest) 	</label>  
+    
+        </div>
+        <div class="separador">        
+
+    <h3>Woodland and shrubland </h3>      
+        <input type="checkbox" name="checkboxG5_1" id="checkboxG5_1" class="css-checkbox seccion_1"/>	<label for="checkboxG5_1" class="css-label">Woodland and shrubland ("dryland")</label>
+           <input type="checkbox" name="checkboxG5_2" id="checkboxG5_2" class="css-checkbox seccion_1"/>	<label for="checkboxG5_2" class="css-label">	Heathland </label>
+        <input type="checkbox" name="checkboxG5_3" id="checkboxG5_3" class="css-checkbox seccion_1"/>	<label for="checkboxG5_3" class="css-label">	Mediterranean scrub</label>
+        <input type="checkbox" name="checkboxG5_4" id="checkboxG5_4" class="css-checkbox seccion_1"/>	<label for="checkboxG5_4  " class="css-label">	Various scrubland	</label> 
+        </div>
+        <div class="separador">        
+
+        
+    <h3>Grass/Rangeland</h3>      
+        <input type="checkbox" name="checkboxG6_1" id="checkboxG6_1" class="css-checkbox seccion_1"/>	<label for="checkboxG6_1" class="css-label">	Grass/Rangeland</label>
+         <input type="checkbox" name="  checkboxG6_2" id="checkboxG6_2" class="css-checkbox seccion_1"/>	<label for="checkboxG6_2" class="css-label">	Heathland </label>
+ 
+        </div>
+        <div class="separador">        
+
+    <h3>Desert</h3>      
+        <input type="checkbox" name="checkboxG8_1" id="checkboxG8_1" class="css-checkbox seccion_1"/>	<label for="checkboxG8_1" class="css-label">	Desert </label>
+        <input type="checkbox" name="checkboxG8_2" id="checkboxG8_2" class="css-checkbox seccion_1"/>	<label for="checkboxG8_2" class="css-label">	Semi-desert </label>
+        <input type="checkbox" name="checkboxG8_3" id="checkboxG8_3" class="css-checkbox seccion_1"/>	<label for="checkboxG8_3" class="css-label">	True desert (sand/rock) </label>
+        </div>
+        <div class="separador">        
+
+    <h3>Ice/Rock/Polar</h3>      
+        <input type="checkbox" name="checkboxG9_1" id="checkboxG9_1" class="css-checkbox seccion_1"/>	<label for="checkboxG9_1" class="css-label">	Ice/Rock/Polar </label>
+        </div>
+        <div class="separador">        
+
+<h3>Cultivated</h3>      
+        <input type="checkbox" name="checkboxG10_1" id="checkboxG10_1" class="css-checkbox seccion_1"/>	<label for="checkboxG10_1" class="css-label">	Cultivated </label>
+        <input type="checkbox" name="checkboxG10_2" id="checkboxG10_2" class="css-checkbox seccion_1"/>	<label for="checkboxG10_2" class="css-label">	Cropland (arable land, pastures, etc.) </label>
+        <input type="checkbox" name="checkboxG10_3" id="checkboxG10_3" class="css-checkbox seccion_1"/>	<label for="checkboxG10_3" class="css-label">	Plantations/orchards/agro-forestry, etc.</label>
+        <input type="checkbox" name="checkboxG10_4" id="checkboxG10_4" class="css-checkbox seccion_1"/>	<label for="checkboxG10_4" class="css-label">	Aquaculture/rice paddies, etc.</label> 
+        </div>
+        <div class="separador">        
+
+<h3>Urban</h3>      
+        <input type="checkbox" name="checkboxG11_1" id="checkboxG11_1" class="css-checkbox seccion_1"/>	<label for="checkboxG11_1" class="css-label">	Urban</label>
+        </div>
+        
+      
+<!--<input type="checkbox" name="checkboxG3" id="checkboxG3" class="css-checkbox seccion_1"/>	<label for="checkboxG3" class="css-label">	Wetlands - general (coastal -  inland)	</label>
+<input type="checkbox" name="checkboxG4" id="checkboxG4" class="css-checkbox seccion_1"/>	<label for="checkboxG4" class="css-label">	Lakes/Rivers	</label>
+<input type="checkbox" name="checkboxG5" id="checkboxG5" class="css-checkbox seccion_1"/>	<label for="checkboxG5" class="css-label">	Forests/all	</label>
+<input type="checkbox" name="checkboxG6" id="checkboxG6" class="css-checkbox seccion_1"/>	<label for="checkboxG6" class="css-label">	Woodland & shrubland ("dryland")	</label>
+<input type="checkbox" name="checkboxG7" id="checkboxG7" class="css-checkbox seccion_1"/>	<label for="checkboxG7" class="css-label">	Desert	</label>
+<input type="checkbox" name="checkboxG8" id="checkboxG8" class="css-checkbox seccion_1"/>	<label for="checkboxG8" class="css-label">	Ice/Rock/Polar	</label>
+<input type="checkbox" name="checkboxG9" id="checkboxG9" class="css-checkbox seccion_1"/>	<label for="checkboxG9" class="css-label">	Cultivated	</label>
+<input type="checkbox" name="checkboxG10" id="checkboxG10" class="css-checkbox seccion_1"/><label for="checkboxG10" class="css-label">	Urban	</label> -->
+    <input type="submit" class="submit" value="Send">
+    </aside>
+<section>
+       <article>
+
+         <h2>Ecosystem service </h2>
+
+<span id="clase1">Provisioning</span>
+<span id="clase2">Regulation Maintenance</span>
+<span id="clase3">Cultural</span>
+    </article>      
+    </section>     
+    <section class="contenido">
+    
+    <div class="target1" style="display:none;">
+        <span id="t_nutrition">Nutrition</span>
+  
+    
+        <article class="nutrition" style="display:none;">
+            
+<fieldset>
+    <legend>Biomass</legend>
+                
+<input type="checkbox" name="checkboxG21" id="checkboxG21" class="css-checkbox seccion_2" />	<label for="checkboxG21" class="css-label">	Cultivated crops	</label>
+<input type="checkbox" name="checkboxG22" id="checkboxG22" class="css-checkbox  seccion_2" />	<label for="checkboxG22" class="css-label">	Reared animals and their outputs	</label>
+<input type="checkbox" name="checkboxG23" id="checkboxG23" class="css-checkbox  seccion_2" />	<label for="checkboxG23" class="css-label">	Wild plants, algae and their outputs	</label>
+<input type="checkbox" name="checkboxG24" id="checkboxG24" class="css-checkbox  seccion_2" />	<label for="checkboxG24" class="css-label">	Wild animals and their outputs	</label>
+<input type="checkbox" name="checkboxG25" id="checkboxG25" class="css-checkbox  seccion_2" />	<label for="checkboxG25" class="css-label">	Plants and algae from in-situ aquaculture	</label>
+<input type="checkbox" name="checkboxG26" id="checkboxG26" class="css-checkbox  seccion_2" />	<label for="checkboxG26" class="css-label">	Animals from in-situ aquaculture	</label>
+                
+</fieldset>            
+<fieldset>
+           
+     
+                
+                <legend>Water</legend>
+            <input type="checkbox" name="checkboxG27" id="checkboxG27" class="css-checkbox   seccion_2" />	<label for="checkboxG27" class="css-label">	Surface water for drinking	</label>
+<input type="checkbox" name="checkboxG28" id="checkboxG28" class="css-checkbox   seccion_2" />	<label for="checkboxG28" class="css-label">	Ground water for drinking	</label>
+    
+    <input type="checkbox" name="selectsec2" id="selectsec2" class="css-checkbox" onclick="checksec2(this)"/>	<label for="selectsec2" class="css-label selector1">	Select all	</label>
+
+            
+            </fieldset>
+
+        </article>
+              <span id="t_materials">Materials</span>
+        <article class="materials" style="display:none;">
+            <fieldset>
+        <legend>Biomass</legend>
+
+<input type="checkbox" name="checkboxG29" id="checkboxG29" class="css-checkbox seccion_3" />	<label for="checkboxG29" class="css-label">	Fibres and other materials from plants, algae and animals for direct use or processing	</label>
+<input type="checkbox" name="checkboxG30" id="checkboxG30" class="css-checkbox seccion_3" />	<label for="checkboxG30" class="css-label">	Materials from plants, algae and animals for agricultural use	</label>
+<input type="checkbox" name="checkboxG31" id="checkboxG31" class="css-checkbox seccion_3" />	<label for="checkboxG31" class="css-label">	Genetic materials from all biota	</label>
+
+            </fieldset>
+            <fieldset>
+             <legend>Water</legend>
+
+<input type="checkbox" name="checkboxG32" id="checkboxG32" class="css-checkbox  seccion_3" />	<label for="checkboxG32" class="css-label">	Surface water for non-drinking purposes	</label>
+<input type="checkbox" name="checkboxG33" id="checkboxG33" class="css-checkbox  seccion_3" />	<label for="checkboxG33" class="css-label">	Ground water for non-drinking purposes	</label>
+       <input type="checkbox" name="selectsec3" id="selectsec3" class="css-checkbox" onclick="checksec3(this)"/>	<label for="selectsec3" class="css-label selector1">	Select all	</label>            
+            </fieldset>
+          
+
+
+         </article>
+                <span id="t_energy">Energy</span>
+
+        <article class="energy" style="display:none;">
+            <fieldset>
+             <legend>Biomass-based energy sources</legend>
+
+            <input type="checkbox" name="checkboxG34" id="checkboxG34" class="css-checkbox seccion_4" />	<label for="checkboxG34" class="css-label">	Plant-based resources	</label>
+<input type="checkbox" name="checkboxG35" id="checkboxG35" class="css-checkbox  seccion_4" />	<label for="checkboxG35" class="css-label">	Animal-based resources	</label>
+
+            </fieldset>
+            <fieldset>
+             <legend>Mechanical energy </legend>
+
+            <input type="checkbox" name="checkboxG36" id="checkboxG36" class="css-checkbox  seccion_4" />	<label for="checkboxG36" class="css-label">	Animal-based energy	</label>
+            <input type="checkbox" name="selectsec4" id="selectsec4" class="css-checkbox" onclick="checksec4(this)"/>	<label for="selectsec4" class="css-label selector1">	Select all	</label>            
+
+            
+            </fieldset>
+        </article>
+ </div>    
+
+    </section>
+    <section class="contenido">
+    
+    <div class="target2" style="display:none;">
+       <span id="t_mediation">Mediation of waste, toxics and other nuisances</span>
+       <article class="mediation" style="display:none;">
+           <fieldset><legend>Mediation by biota</legend> 
+<input type="checkbox" name="checkboxG37" id="checkboxG37" class="css-checkbox seccion_9" />	<label for="checkboxG37" class="css-label">	Bio-remediation by micro-organisms, algae, plants, and animals	</label>
+<input type="checkbox" name="checkboxG38" id="checkboxG38" class="css-checkbox seccion_9" />	<label for="checkboxG38" class="css-label">	Filtration/sequestration/storage/accumulation by micro-organisms, algae, plants, and animals	</label>
+            
+            </fieldset>
+           <fieldset>
+           <legend>Mediation by ecosystems</legend>
+           
+<input type="checkbox" name="checkboxG39" id="checkboxG39" class="css-checkbox seccion_9" />	<label for="checkboxG39" class="css-label">	Filtration/sequestration/storage/accumulation by ecosystems	</label>
+<input type="checkbox" name="checkboxG40" id="checkboxG40" class="css-checkbox seccion_9" />	<label for="checkboxG40" class="css-label">	Dilution by atmosphere, freshwater and marine ecosystems	</label>
+<input type="checkbox" name="checkboxG41" id="checkboxG41" class="css-checkbox seccion_9" />	<label for="checkboxG41" class="css-label">	Mediation of smell/noise/visual impacts	</label>
+               <input type="checkbox" name="selectsec9" id="selectsec9" class="css-checkbox" onclick="checksec9(this)"/>	<label for="selectsec9" class="css-label selector1">	Select all	</label>  
+           </fieldset>
+           
+           
+           
+        </article>
+       <span id="t_mediation2">Mediation of flows</span>
+       <article class="mediation2" style="display:none;">
+        <fieldset>
+           <legend>Mass flows</legend>
+        <input type="checkbox" name="checkboxG42" id="checkboxG42" class="css-checkbox seccion_5" />	<label for="checkboxG42" class="css-label">	Mass stabilisation and control of erosion rates	</label>
+<input type="checkbox" name="checkboxG43" id="checkboxG43" class="css-checkbox seccion_5" />	<label for="checkboxG43" class="css-label">	Buffering and attenuation of mass flows	</label>
+                      </fieldset>
+<fieldset>
+    <legend>Liquid flows</legend>
+           <input type="checkbox" name="checkboxG44" id="checkboxG44" class="css-checkbox seccion_5" />	<label for="checkboxG44" class="css-label">	Hydrological cycle and water flow maintenance	</label>
+<input type="checkbox" name="checkboxG45" id="checkboxG45" class="css-checkbox seccion_5" />	<label for="checkboxG45" class="css-label">	Flood protection	</label>
+           </fieldset>
+<fieldset>
+    <legend>Gaseous / air flows</legend>
+           <input type="checkbox" name="checkboxG46" id="checkboxG46" class="css-checkbox seccion_5" />	<label for="checkboxG46" class="css-label">	Storm protection	</label>
+<input type="checkbox" name="checkboxG47" id="checkboxG47" class="css-checkbox seccion_5" />	<label for="checkboxG47" class="css-label">	Ventilation and transpiration	</label>
+                       <input type="checkbox" name="selectsec4" id="selectsec5" class="css-checkbox" onclick="checksec5(this)"/>	<label for="selectsec5" class="css-label selector1">	Select all	</label>  
+           </fieldset>
+
+        
+        </article>
+        
+        
+       <span id="t_mediation3">Maintenance of physical, chemical, biological conditions</span>
+       <article class="mediation3" style="display:none;">
+<fieldset>
+           <legend> Lifecycle maintenance, habitat and gene pool protection</legend>
+    <input type="checkbox" name="checkboxG48" id="checkboxG48" class="css-checkbox seccion_6" />	<label for="checkboxG48" class="css-label">	Pollination and seed dispersal	</label>
+<input type="checkbox" name="checkboxG49" id="checkboxG49" class="css-checkbox seccion_6" />	<label for="checkboxG49" class="css-label">	Maintaining nursery populations and habitats	</label>
+    
+           </fieldset>
+<fieldset>
+    <legend>Pest and disease control</legend>
+    <input type="checkbox" name="checkboxG50" id="checkboxG50" class="css-checkbox seccion_6" />	<label for="checkboxG50" class="css-label">	Pest control	</label>
+<input type="checkbox" name="checkboxG51" id="checkboxG51" class="css-checkbox seccion_6" />	<label for="checkboxG51" class="css-label">	Disease control	</label>
+           </fieldset>
+<fieldset>
+    <legend>Soil formation and composition</legend>
+           <input type="checkbox" name="checkboxG52" id="checkboxG52" class="css-checkbox seccion_6" />	<label for="checkboxG52" class="css-label">	Weathering processes	</label>
+<input type="checkbox" name="checkboxG53" id="checkboxG53" class="css-checkbox seccion_6" />	<label for="checkboxG53" class="css-label">	Decomposition and fixing processes	</label>
+           </fieldset>
+<fieldset>
+    <legend>Water conditions</legend>
+           <input type="checkbox" name="checkboxG54" id="checkboxG54" class="css-checkbox seccion_6" />	<label for="checkboxG54" class="css-label">	Chemical condition of freshwaters	</label>
+<input type="checkbox" name="checkboxG55" id="checkboxG55" class="css-checkbox seccion_6" />	<label for="checkboxG55" class="css-label">	Chemical condition of salt waters	</label>
+
+           </fieldset>
+<fieldset>
+    <legend>Atmospheric composition and climate regulation</legend>
+          <input type="checkbox" name="checkboxG56" id="checkboxG56" class="css-checkbox seccion_6" />	<label for="checkboxG56" class="css-label">	Global climate regulation by reduction of greenhouse gas concentrations	</label>
+<input type="checkbox" name="checkboxG57" id="checkboxG57" class="css-checkbox seccion_6" />	<label for="checkboxG57" class="css-label">	Micro and regional climate regulation	</label>   
+                    <input type="checkbox" name="selectsec6" id="selectsec6" class="css-checkbox" onclick="checksec6(this)"/>	<label for="selectsec6" class="css-label selector1">	Select all	</label>  
+           </fieldset>
+      
+        
+        
+        </article>
+
+
+
+ </div>        
+
+    </section>
+    
+    <section class="contenido">
+    <div class="target3" style="display:none;">
+           <span id="t_physical">Physical and intellectual interactions with biota, ecosystems, and land-/seascapes </span>
+        <article class="physical" style="display:none;">
+        <fieldset>
+            <legend>Physical and experiential interactions</legend>
+            <input type="checkbox" name="checkboxG58" id="checkboxG58" class="css-checkbox seccion_7" />	<label for="checkboxG58" class="css-label">	Experiential use of plants, animals and land-/seascapes in different environmental settings	</label>
+<input type="checkbox" name="checkboxG59" id="checkboxG59" class="css-checkbox seccion_7" />	<label for="checkboxG59" class="css-label">	Physical use of land-/seascapes in different environmental settings	</label>
+                            <input type="checkbox" name="selectsec7" id="selectsec7" class="css-checkbox" onclick="checksec7(this)"/>	<label for="selectsec7" class="css-label selector1">	Select all	</label>  
+            </fieldset>
+<fieldset>
+<legend>Intellectual and representative interactions</legend>
+<input type="checkbox" name="checkboxG60" id="checkboxG60" class="css-checkbox seccion_7" />	<label for="checkboxG60" class="css-label">	Scientific	</label>
+<input type="checkbox" name="checkboxG61" id="checkboxG61" class="css-checkbox seccion_7" />	<label for="checkboxG61" class="css-label">	Educational	</label>
+<input type="checkbox" name="checkboxG62" id="checkboxG62" class="css-checkbox seccion_7" />	<label for="checkboxG62" class="css-label">	Heritage, cultural	</label>
+<input type="checkbox" name="checkboxG63" id="checkboxG63" class="css-checkbox seccion_7" />	<label for="checkboxG63" class="css-label">	Entertainment	</label>
+<input type="checkbox" name="checkboxG64" id="checkboxG64" class="css-checkbox seccion_7" />	<label for="checkboxG64" class="css-label">	Aesthetic	</label>
+
+</fieldset>
+
+            
+        </article>
+            <span id="t_spiritual">Spiritual, symbolic and other interactions with biota, ecosystems, and land-/seascapes </span>
+        <article class="spiritual" style="display:none;">
+        
+        <fieldset>
+            <legend>Spiritual and/or emblematic</legend>
+            
+<input type="checkbox" name="checkboxG65" id="checkboxG65" class="css-checkbox seccion_8" />	<label for="checkboxG65" class="css-label">	Symbolic	</label>
+<input type="checkbox" name="checkboxG66" id="checkboxG66" class="css-checkbox seccion_8" />	<label for="checkboxG66" class="css-label">	Sacred and/or religious	</label>
+            
+            </fieldset>
+<fieldset>
+            <legend>Other cultural outputs</legend>
+<input type="checkbox" name="checkboxG67" id="checkboxG67" class="css-checkbox seccion_8" />	<label for="checkboxG67" class="css-label">	Existence	</label>
+<input type="checkbox" name="checkboxG68" id="checkboxG68" class="css-checkbox seccion_8" />	<label for="checkboxG68" class="css-label">	Bequest	</label>            
+            <input type="checkbox" name="selectsec8" id="selectsec8" class="css-checkbox" onclick="checksec8(this)"/>	<label for="selectsec8" class="css-label selector1">	Select all	</label>  
+            </fieldset>
+
+        </article>
+           
+
+
+    
+ </div>
+    </section>
+</form>                                     
+    </body>
+    <script>
+    $("#clase1").click(function(){
+    var $target = $('.target1'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Provisioning' : 'Provisioning') );
+    });
+});
+        $("#clase2").click(function(){
+    var $target = $('.target2'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Regulation Maintenance' : 'Regulation Maintenance') );
+    });
+});
+        
+            $("#clase3").click(function(){
+    var $target = $('.target3'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Cultural' : 'Cultural') );
+    });
+});
+
+   $("#t_nutrition").click(function(){
+    var $target = $('.nutrition'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Nutrition' : 'Nutrition') );
+    });
+});        
+     $("#t_materials").click(function(){
+    var $target = $('.materials'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Materials' : 'Materials') );
+    });
+});      
+    $("#t_energy").click(function(){
+    var $target = $('.energy'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Energy' : 'Energy') );
+    });
+});        
+     $("#t_mediation").click(function(){
+    var $target = $('.mediation'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Mediation of waste, toxics and other nuisances' : 'Mediation of waste, toxics and other nuisances') );
+    });
+});        
+ $("#t_mediation2").click(function(){
+    var $target = $('.mediation2'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Mediation of flows' : 'Mediation of flows') );
+    });
+});        
+ $("#t_mediation3").click(function(){
+    var $target = $('.mediation3'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Maintenance of physical, chemical, biological conditions' : 'Maintenance of physical, chemical, biological conditions') );
+    });
+});        
+        
+  $("#t_physical").click(function(){
+    var $target = $('.physical'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Physical and intellectual interactions with biota, ecosystems, and land-/seascapes' : 'Physical and intellectual interactions with biota, ecosystems, and land-/seascapes') );
+    });
+});        
+        
+   $("#t_spiritual").click(function(){
+    var $target = $('.spiritual'),
+        $toggle = $(this);
+
+    $target.slideToggle( 500, function () {
+        $toggle.text(($target.is(':visible') ? 'Spiritual, symbolic and other interactions with biota, ecosystems, and land-/seascapes ' : 'Spiritual, symbolic and other interactions with biota, ecosystems, and land-/seascapes') );
+    });
+});        
+        
+        
+    </script>
+    <script>
+    
+    
+    function checkAll(bx) {
+  var cbs = document.getElementsByClassName('seccion_1');
+  for(var i=0; i < cbs.length; i++) {
+    if(cbs[i].type == 'checkbox') {
+      cbs[i].checked = bx.checked;
+    }
+  }
+}    
+    function checksec2(bx) {
+  var cbs = document.getElementsByClassName('seccion_2');
+  for(var i=0; i < cbs.length; i++) {
+    if(cbs[i].type == 'checkbox') {
+      cbs[i].checked = bx.checked;
+    }
+  }
+}
+        
+    function checksec3(bx) {
+  var cbs = document.getElementsByClassName('seccion_3');
+  for(var i=0; i < cbs.length; i++) {
+    if(cbs[i].type == 'checkbox') {
+      cbs[i].checked = bx.checked;
+    }
+  }
+}    function checksec4(bx) {
+  var cbs = document.getElementsByClassName('seccion_4');
+  for(var i=0; i < cbs.length; i++) {
+    if(cbs[i].type == 'checkbox') {
+      cbs[i].checked = bx.checked;
+    }
+  }
+}        
+  function checksec5(bx) {
+  var cbs = document.getElementsByClassName('seccion_5');
+  for(var i=0; i < cbs.length; i++) {
+    if(cbs[i].type == 'checkbox') {
+      cbs[i].checked = bx.checked;
+    }
+  }
+}        
+  function checksec6(bx) {
+  var cbs = document.getElementsByClassName('seccion_6');
+  for(var i=0; i < cbs.length; i++) {
+    if(cbs[i].type == 'checkbox') {
+      cbs[i].checked = bx.checked;
+    }
+  }
+}        
+  function checksec7(bx) {
+  var cbs = document.getElementsByClassName('seccion_7');
+  for(var i=0; i < cbs.length; i++) {
+    if(cbs[i].type == 'checkbox') {
+      cbs[i].checked = bx.checked;
+    }
+  }
+}        
+  function checksec8(bx) {
+  var cbs = document.getElementsByClassName('seccion_8');
+  for(var i=0; i < cbs.length; i++) {
+    if(cbs[i].type == 'checkbox') {
+      cbs[i].checked = bx.checked;
+    }
+  }
+}        
+      function checksec9(bx) {
+  var cbs = document.getElementsByClassName('seccion_9');
+  for(var i=0; i < cbs.length; i++) {
+    if(cbs[i].type == 'checkbox') {
+      cbs[i].checked = bx.checked;
+    }
+  }
+}        
+       
+    </script>
+    
+
+    
+    
+  
+
+</html>
